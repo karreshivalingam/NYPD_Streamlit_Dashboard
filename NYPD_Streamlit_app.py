@@ -22,9 +22,8 @@ section = st.sidebar.radio("Go to", [
 # Loading the data
 @st.cache_data
 def load_data():
-    df = pd.read_csv(
-        r"C:\Users\karre\DataVisualisation\Final_Project\NYPD_Streamlit_Dashboard\NYPD_Complaint_Data_Current__Year_To_Date_.csv"
-    )
+    df = pd.read_csv("https://drive.google.com/uc?export=download&id=1jVXzXdUdDfIXCJsFsSO3u-J0IJ0VGVrr")
+
     df['CMPLNT_FR_DT'] = pd.to_datetime(df['CMPLNT_FR_DT'], errors='coerce')
     df['CMPLNT_FR_HOUR'] = pd.to_datetime(df['CMPLNT_FR_TM'], errors='coerce').dt.hour
     df['DayOfWeek'] = df['CMPLNT_FR_DT'].dt.day_name()
