@@ -20,13 +20,7 @@ Final_Project/
 
 ## 🌐 Live Streamlit Dashboard
 
-Once deployed, you can access the interactive dashboard here:  
-`[Insert your Streamlit link here]`
 
-## 💻 GitHub Repository
-
-Full project source code:  
-`[Insert your GitHub repo link here]`
 
 ## 🧰 Tools & Libraries
 
@@ -37,10 +31,3 @@ Full project source code:
 - Plotly
 - Streamlit
 
-## 📷 Screenshots
-
-(Screenshots from the dashboard and notebook analysis should be added in your PowerPoint presentation.)
-
----
-
-Created as a final project for the Summer 2025 Data Visualization Course.
